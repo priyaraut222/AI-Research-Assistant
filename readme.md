@@ -94,7 +94,7 @@ Before running the project, ensure you have:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-research-assistant.git
+git clone https://github.com/priyaraut222/AI-Research-Assistant.git
 cd ai-research-assistant
 ```
 
@@ -223,11 +223,3 @@ Contributions, suggestions, and improvements are welcome.
 2. Create a feature branch.
 3. Commit your changes.
 4. Open a pull request.
-
-## License
-
-This project is intended for educational and learning purposes. Add an appropriate open-source license before distributing or reusing the project.
-
----
-
-**Built to explore the practical implementation of LLM-powered research workflows.**
