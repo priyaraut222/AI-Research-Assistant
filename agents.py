@@ -11,8 +11,20 @@ model = ChatGroq(model = "openai/gpt-oss-120b",temperature=0)
 
 def build_search_agent():
     return create_agent(
-        model = model,
-        tools= [web_search]
+        model=model,
+        tools=[web_search],
+        system_prompt="""
+        You are a web research agent.
+
+        Your only available tool is web_search.
+
+        Use web_search to find relevant information.
+        Do not attempt to call any other tools.
+        Do not invent tool names.
+
+        Gather relevant information and return
+        the search results clearly.
+        """
     )
 
 
